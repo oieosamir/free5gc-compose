@@ -26,12 +26,12 @@ docker compose pull
 
 ```bash
 # Clone the project
-git clone https://github.com/free5gc/free5gc-compose.git
+git clone https://github.com/oieosamir/free5gc-compose.git
 cd free5gc-compose
 
 # clone free5gc sources
 cd base
-git clone --recursive -j `nproc` https://github.com/free5gc/free5gc.git
+git clone --recursive -j `nproc` https://github.com/oieosamir/free5gc.git
 cd ..
 
 # Build the images
