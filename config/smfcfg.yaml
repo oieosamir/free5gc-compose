@@ -91,8 +91,8 @@ configuration:
   nrfUri: http://nrf.free5gc.org:8000 # a valid URI of NRF
   nrfCertPem: cert/nrf.pem # NRF Certificate
   urrPeriod: 10 # default usage report period in seconds
-  urrThreshold: 1000 # default usage report threshold in bytes
-  requestedUnit: 1000
+  urrThreshold: 5000 # default usage report threshold in bytes
+  requestedUnit: 5000
 logger: # log output setting
   enable: true # true or false
   level: info # how detailed to output, value: trace, debug, info, warn, error, fatal, panic
